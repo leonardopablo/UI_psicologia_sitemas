@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental express</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/select.css">
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <ul class="contact-list">
+          
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+917052101786" class="contact-link"
+                >962 604 728</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://web.facebook.com/dentalexpresshuanuco/?_rdc=1&_rdr" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <a href="#" class="logo">Evaluación de EQ</a>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link
+                  >Servicios</a
+                >
+              </li>
+              <script>
+        function redirigir() {
+            // Obtener el valor seleccionado
+            var seleccion = document.getElementById("opciones").value;
+
+            // Redirigir según la opción seleccionada
+            if (seleccion === "opcion1") {
+                window.location.href = "PERSONAL/login_usuarios.php";
+            } else if (seleccion === "opcion2") {
+                window.location.href = "PERSONAL/login.php";
+            }
+        }
+    </script>
+    
+              <li class="li_select">
+              <select id="opciones" name="opciones" class="form-select me-2 sele" onchange="redirigir()">
+                        <option class="option1" value="">LOGIN</option>
+                        <option class="option1" value="opcion1"> Usuario</option>
+                        <option class="option1" value="opcion2"> Administrador</option>
+                    </select>
+              
+              </li>
+
+             
+            </ul>
+          </nav>
+
+          <a href="PERSONAL/login_usuarios.php" class="btn">Evaluacion</a>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <ion-icon
+              name="menu-sharp"
+              aria-hidden="true"
+              class="menu-icon"
+            ></ion-icon>
+            <ion-icon
+              name="close-sharp"
+              aria-hidden="true"
+              class="close-icon"
+            ></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero"
+          id="home"
+          style="background-image: url('images/hero-bg.png')"
+          aria-label="hero"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle">Explora y Mejora tu Inteligencia Emocional</p>
+
+              <h1 class="h1 hero-title">¿Que es?</h1>
+
+              <p class="hero-text">
+              La inteligencia emocional (IE) es la capacidad de identificar, comprender, gestionar y expresar nuestras emociones de manera adecuada, así como reconocer e influir en las emociones de los demás. Este concepto fue popularizado por el psicólogo Daniel Goleman, aunque tiene raíces en investigaciones previas realizadas por Peter Salovey y John Mayer.
+              </p>
+              <p class="hero-text">
+                Más de 10 años de experiencia  y cientos  de sonrisas alrededor de la ciudad de Huánuco nos respaldan como una de las mejores Clínicas Dentales de la Región. ¡Compruébalo tu mismo!
+
+
+              </p>
+
+              
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="images/hero-banner.png"
+                width="587"
+                height="839"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+       
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="images/about-banner.png"
+                width="470"
+                height="538"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">ACERCA DE NOSOTROS</p>
+
+              <h2 class="h2 section-title">Cuidamos su salud dental</h2>
+
+              <p class="section-text">
+                Dental Express nació con un propósito claro: democratizar la
+                odontología. Creemos firmemente que el acceso a servicios
+                dentales de calidad no debe ser un lujo, sino un derecho para
+                todos. Por eso, nos hemos dedicado a ofrecer tratamientos
+                dentales a precios económicos, sin comprometer la excelencia.
+              </p>
+              <br>
+              <h3 class="h3 card-title">Misión</h3>
+              <p class="section-text">
+                Nuestra misión es proporcionar tratamientos dentales excepcionales en un entorno acogedor y profesional, asegurando que cada visita sea conveniente, cómoda y satisfactoria. Nos esforzamos por hacer que el cuidado dental sea una experiencia positiva y libre de estrés para todos nuestros pacientes.
+              </p>
+              <br>
+              <h3 class="h3 card-title">Visión</h3>
+
+<p class="section-text">
+  Ser la clínica dental líder en ofrecer servicios de alta calidad a precios accesibles, transformando la experiencia de la odontología en la región. Nos esforzamos por ser reconocidos como la primera opción para el cuidado dental, donde cada paciente puede obtener una sonrisa saludable y hermosa sin preocupaciones económicas.
+              </p>
+              <br>
+              <h3 class="h3 card-title">Nuestros valores</h3>
+    
+               <ol>
+                <li>1. Accesibilidad</li>
+                <li>2. Integridad</li>
+                <li>3. Responsabilidad</li>
+             
+               </ol>
+              
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img
+              src="images/doctor.png"
+              width="470"
+              height="538"
+              loading="lazy"
+              alt="about banner"
+              class="w-100"
+            />
+          </figure>
+
+          <div class="about-content">
+            <p class="section-subtitle">¿Por qué las empresas necesitan este tipo de inteligencia?</p>
+
+            
+            <br>
+            
+            <p class="section-text">
+            Hoy en día son muchas las corporaciones que invierten grandes sumas de dinero en formar a sus empleados en Inteligencia Emocional. La razón de esta apuesta estriba en que las empresas se han dado cuenta de que una de las claves del éxito comercial y de la venta de sus productos radica en el grado en que sus trabajadores son capaces de reconocer y controlar sus emociones, así como las de sus clientes.
+            </p>
+            <br>
+            
+            <p class="section-text">
+            Es casi impensable concebir un comercial de ventas que carezca de habilidades en el trato con los clientes, un empresario sin motivación para la dirección de su compañía o un negociador que no sepa capaz de controlar sus impulsos y emociones. Todo el conocimiento técnico basado en la mejor relación entre estudios académicos y experiencia no será ninguna garantía para estas personas, porque tarde o temprano malograrán operaciones económicas por un deficiente conocimiento de sus emociones.
+            </p>
+           
+
+
+          </div>
+        </div>
+      </section>
+
+        <!-- 
+         - #SERVICE
+      -->
+
+        <section class="section service" id="service" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle text-center">INTELIGENCIA EMOCIONAL</p>
+
+            <h2 class="h2 section-title text-center">ELEMENTOS</h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/endodoncia.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Estado de Ánimo General</h3>
+
+                    <p class="card-text">
+                      Tratamiento sin dolor, rápido y seguro de las raíces del diente en el que se procede a la extracción total del nervio dental.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/ortodoncia.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Intrapersonal</h3>
+                    ¿Cansado de tener los dientes mal posicionados? Especialidad de la odontología encargada de corregir defectos de la posición del diente.
+                    <p class="card-text">
+                     
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/implantes.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Adaptabilidad</h3>
+
+                    <p class="card-text">
+                      Especialidad dedicada a devolver la función masticatoria, restaurar y/o devolver la pérdida de dientes a través del uso de prótesis fija, removiblee e implantes.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-banner">
+                <figure>
+                  <img
+                    src="images/service-banner.png"
+                    width="409"
+                    height="467"
+                    loading="lazy"
+                    alt="service banner"
+                    class="w-100"
+                  />
+                </figure>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/periodoncia.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Manejo de Estrés</h3>
+
+                    <p class="card-text">
+                      Si estás cansado del mal aliento, sangrado e inflamación de tus encías, tenemos un tratamiento especializado para solucionarlo.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/estetica_dental.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Interpersonal</h3>
+
+                    <p class="card-text">
+                      Recupera tu sonrisa con nuestros novedosos tratamientos: Blanqueamiento LED, Carillas, Coronas libres de metal y más.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="images/odontopediatría.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="service icon"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Empatia</h3>
+
+                    <p class="card-text">
+                      Enfocados a la prevención gracias al cuidado oral mediante diversas técnicas de motivación y responsabilidad para el niño.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+          <p class="section-subtitle text-center">especializado en ortodoncia </p>
+
+          <h2 class="h2 section-title text-center">tres tipos de ortodoncia</h2>
+
+          <ul class="blog-list">
+            <li>
+              <div class="blog-card">
+                <figure
+                  class="card-banner img-holder"
+                  style="--width: 1180; --height: 800"
+                >
+                  <img
+                    src="images/ALINEADOR TRANSPARENTE.jpg"
+                    width="1180"
+                    height="800"
+                    loading="lazy"
+                    alt="Cras accumsan nulla nec lacus ultricies placerat."
+                    class="img-cover"
+                  />
+
+                  
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="https://corromaduro.com/alira/" class="card-title"
+                      >Alineadores Invisibles</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Alira es una solución discreta y cómoda para corregir la posición de los dientes sin necesidad de brackets que suelen ser un poco incomodos. Estos alineadores transparentes y removibles son prácticamente imperceptibles, permitiendo una sonrisa estética durante el tratamiento.
+                  </p>
+
+
+                
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure
+                  class="card-banner img-holder"
+                  style="--width: 1180; --height: 800"
+                >
+                  <img
+                    src="images/Ortodoncia_estetica__200x200.jpg"
+                    width="1180"
+                    height="800"
+                    loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat."
+                    class="img-cover"
+                  />
+
+                  
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="https://corromaduro.com/ortodoncia-frenos-alineadores/" class="card-title"
+                      >Brackets Estéticos</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Son una opción popular para corregir la posición de los dientes de manera discreta y estética. Están fabricados con materiales transparentes o del color de los dientes, lo que los hace menos visibles que los brackets tradicionales. Obtén una sonrisa alineada y atractiva sin comprometer tu apariencia.
+                  </p>
+
+                
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure
+                  class="card-banner img-holder"
+                  style="--width: 1180; --height: 800"
+                >
+                  <img
+                    src="images/BRAKETS METALICOS.jpg"
+                    width="1180"
+                    height="800"
+                    loading="lazy"
+                    alt="Seas accumsan nulla nec lacus ultricies placerat."
+                    class="img-cover"
+                  />
+
+                  
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="https://corromaduro.com/ortodoncia-frenos-alineadores/" class="card-title"
+                      >Brackets Metálicos</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Son una opción duradera y eficaz para corregir la posición de los dientes. Están fabricados con acero inoxidable de alta calidad y son conocidos por su resistencia y capacidad para tratar una amplia gama de problemas dentales. También son una elección popular debido a su eficacia y asequibilidad.
+                  </p>
+
+          
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+         - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" style="margin-top: 50PX;" >
+        <div class="container">
+          <figure class="cta-banner">
+            <img
+              src="images/cta-banner.png"
+              width="1056"
+              height="1076"
+              loading="lazy"
+              alt="cta banner"
+              class="w-100"
+            />
+          </figure>
+
+          <div class="cta-content">
+            
+            <h2 class="h2 section-title">
+              somos abiertos y acogedores con nuestros pacientes
+            </h2>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="estrellas">
+      <?php
+       include "estrellas.php";
+      ?>
+    </div>
+
+      <!-- 
+       
+    - #FOOTER
+  -->
+
+    <footer class="footer" style="margin-top: 200px;">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">Dental express.</a>
+
+            <p class="footer-text">
+              Visítenos y descubra cómo podemos <br>
+              devolverle la sonrisa sin interrumpir su día.<br>
+              ¡Su nueva sonrisa lo espera en Dental Express!
+            </p>
+
+            
+          </div>
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Horario de atención</p>
+            </li>
+            <div class="schedule">
+              <div class="schedule-icon">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <span class="span">
+                Lunes - viernes:<br />
+                8:00am - 7:00Pm <br />
+                Sabado:<br />
+                8:00am-7:00pm
+              </span>
+            </div>
+           
+          </ul>
+          
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Ubicación</p>
+            </li>
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <br class="item-text">
+               Jr.Aguilar N° 426- 2do. Piso(Frente al paradero Ambo) ,<br />
+                Huánuco-Perú
+              </address>
+            </li>
+            
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contactanos</p>
+            </li>
+
+            
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a href="tel:+917052101786" class="footer-link"
+                >962 604 728</a
+              >
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; clinica dental "dental express"
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://web.facebook.com/dentalexpresshuanuco/?_rdc=1&_rdr" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    
+    <script src="JS/script.js"></script>
+  </body>
+</html>

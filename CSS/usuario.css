@@ -1,0 +1,25 @@
+/*color: rgb(21, 102, 253); /* Cambiar el color de los íconos a azul */
+
+.mayor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Para centrar verticalmente en toda la vista */
+}
+
+.mayor > div {
+  margin: 20px; /* Incrementar el margen para más separación */
+  font-size: 10rem; /* Ajustar el tamaño del texto en los divs */
+}
+
+.icon-folder i,
+.icon-book i,
+.icon-comments i {
+  font-size: 10rem; /* Ajustar el tamaño de los íconos */
+  color: rgb(21, 102, 253); /* Cambiar el color de los íconos a azul */
+}
+
+.h4 {
+  margin-left: 20px;
+  color: rgb(21, 102, 253);
+}

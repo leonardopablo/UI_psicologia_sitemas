@@ -1,0 +1,22 @@
+.li_select {
+  list-style-type: none; /* Elimina la viñeta de la lista */
+}
+
+.form-select {
+  background: linear-gradient(
+    to right,
+    #56ccf2,
+    #2f80ed
+  ); /* Fondo degradado azul */
+  border: none; /* Elimina el borde predeterminado */
+  color: white; /* Color de texto blanco */
+  padding: 10px 20px; /* Espaciado dentro del botón */
+  font-size: 16px; /* Tamaño de fuente */
+  border-radius: 20px; /* Esquinas redondeadas */
+}
+
+/* Estilos adicionales para las opciones si es necesario */
+.option1 {
+  background-color: white;
+  color: black;
+}

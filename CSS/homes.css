@@ -1,0 +1,26 @@
+.text {
+    color: #000; /* Color negro para el texto */
+    font-size: 5em; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-shadow: 3px 3px 8px rgba(20, 108, 209, 0.8); /* Sombra más suave y realista */
+    position: absolute;
+    top: 20%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Texto centrado */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    line-height: 1.2; /* Espaciado entre líneas */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .text {
+        font-size: 3em; /* Tamaño del texto reducido en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 2em; /* Ajuste adicional para dispositivos muy pequeños */
+    }
+}
