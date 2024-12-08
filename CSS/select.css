@@ -1,22 +1,59 @@
 .li_select {
-  list-style-type: none; /* Elimina la viñeta de la lista */
+  list-style-type: none; 
+  ;/* Elimina la viñeta de la lista */
 }
 
 .form-select {
-  background: linear-gradient(
-    to right,
-    #56ccf2,
-    #2f80ed
-  ); /* Fondo degradado azul */
-  border: none; /* Elimina el borde predeterminado */
-  color: white; /* Color de texto blanco */
-  padding: 10px 20px; /* Espaciado dentro del botón */
-  font-size: 16px; /* Tamaño de fuente */
-  border-radius: 20px; /* Esquinas redondeadas */
+  background-image: linear-gradient( var(--deg, 90deg), var(--carolina-blue) 0%, var(--royal-blue-light) 100%);
+  color: var(--white);
+  font-size: var(--fs-7);
+  text-transform: uppercase;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
 }
+
+.form-select:is(:hover, :focus) { --deg: -90deg; }
 
 /* Estilos adicionales para las opciones si es necesario */
 .option1 {
   background-color: white;
   color: black;
+}
+
+.form-select:hover {
+  border-color: #4f6df5;
+  box-shadow: 0 2px 4px rgba(79, 109, 245, 0.1);
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #4f6df5;
+  box-shadow: 0 2px 8px rgba(79, 109, 245, 0.2);
+}
+
+/* Estilo para las opciones */
+.option1 {
+  padding: 8px;
+  color: #333;
+}
+
+.option1:hover {
+  background-color: #f0f2ff;
+}
+
+/* Contenedor del select */
+.li_select {
+  margin: 0 10px;
+  position: relative;
+}
+
+/* Estilo para el texto "Hola" (placeholder) */
+.form-select option[value="option1"] {
+  color: #888;
 }
